@@ -1,0 +1,31 @@
+features:
+  - name: weekly_fourier_sin_1
+    family: calendar
+    role: regressor
+    known_at: future
+    missing_policy: none
+  - name: weekly_fourier_cos_1
+    family: calendar
+    role: regressor
+    known_at: future
+    missing_policy: none
+  - name: weekly_fourier_sin_2
+    family: calendar
+    role: regressor
+    known_at: future
+    missing_policy: none
+  - name: weekly_fourier_cos_2
+    family: calendar
+    role: regressor
+    known_at: future
+    missing_policy: none
+  - name: is_weekend
+    family: calendar
+    role: regressor
+    known_at: future
+    missing_policy: none
+  - name: missing_hour
+    family: missingness
+    role: diagnostic
+    known_at: origin
+    missing_policy: none
